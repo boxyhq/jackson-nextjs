@@ -1,16 +1,13 @@
 import type { NextPage } from "next";
-import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 const Logout: NextPage = () => {
-  const router = useRouter();
-
-  async function signOut() {
-    // router.push("/login");
+  async function logOut() {
+    // Handle logOut
   }
 
   useEffect(() => {
-    signOut();
+    logOut();
   }, []);
 
   return <p>Logging out...</p>;
